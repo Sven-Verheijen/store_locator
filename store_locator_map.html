@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_11910d7fcb885141346f24de18ec1de7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_11910d7fcb885141346f24de18ec1de7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_11910d7fcb885141346f24de18ec1de7 = L.map(
+                "map_11910d7fcb885141346f24de18ec1de7",
+                {
+                    center: [51.726055, 4.5113825],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d520f558136c83e48604c307b8c1fddb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_11910d7fcb885141346f24de18ec1de7);
+        
+    
+            var marker_262b71f5ceec18d1d488e38b5c28aa01 = L.marker(
+                [50.7129, 4.5611],
+                {}
+            ).addTo(map_11910d7fcb885141346f24de18ec1de7);
+        
+    
+        var popup_eb86358ec773271c26f5a03077008c19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb09e1d978a25de29c9e291ac98e31e0 = $(`<div id="html_eb09e1d978a25de29c9e291ac98e31e0" style="width: 100.0%; height: 100.0%;">Bianchini Maison De Decoration<br>3 avenue de merode<br>WAVER<br>1300<br>Belgium</div>`)[0];
+            popup_eb86358ec773271c26f5a03077008c19.setContent(html_eb09e1d978a25de29c9e291ac98e31e0);
+        
+
+        marker_262b71f5ceec18d1d488e38b5c28aa01.bindPopup(popup_eb86358ec773271c26f5a03077008c19)
+        ;
+
+        
+    
+    
+            var marker_d71e48a6a3a28aa4b27d711561bb6ede = L.marker(
+                [52.02351, 4.27459],
+                {}
+            ).addTo(map_11910d7fcb885141346f24de18ec1de7);
+        
+    
+        var popup_ad69f5627d16ab3908ba7344fabeeb06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3177de9c2d038f8b8ef13f5a8a13ceef = $(`<div id="html_3177de9c2d038f8b8ef13f5a8a13ceef" style="width: 100.0%; height: 100.0%;">HET HEERENHUYS<br>herenstraat 92<br>Wateringen<br>BJ 2291<br>Nederland</div>`)[0];
+            popup_ad69f5627d16ab3908ba7344fabeeb06.setContent(html_3177de9c2d038f8b8ef13f5a8a13ceef);
+        
+
+        marker_d71e48a6a3a28aa4b27d711561bb6ede.bindPopup(popup_ad69f5627d16ab3908ba7344fabeeb06)
+        ;
+
+        
+    
+    
+            var marker_4b0051f201d19efd93ea3936266c1410 = L.marker(
+                [51.98943, 4.50172],
+                {}
+            ).addTo(map_11910d7fcb885141346f24de18ec1de7);
+        
+    
+        var popup_9712b7bb41f8f6564b9b724b18746d72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_261d4e1d0a36aaf35ba1c43e7ccec6b4 = $(`<div id="html_261d4e1d0a36aaf35ba1c43e7ccec6b4" style="width: 100.0%; height: 100.0%;">HET POSTHUYS<br>LEEUWENHOEKWEG 38<br>BERGSCHENHOEK<br>2661 CZ<br>Nederland</div>`)[0];
+            popup_9712b7bb41f8f6564b9b724b18746d72.setContent(html_261d4e1d0a36aaf35ba1c43e7ccec6b4);
+        
+
+        marker_4b0051f201d19efd93ea3936266c1410.bindPopup(popup_9712b7bb41f8f6564b9b724b18746d72)
+        ;
+
+        
+    
+    
+            var marker_95b9ce194453077215baf8bc07b8324d = L.marker(
+                [52.17838, 4.70812],
+                {}
+            ).addTo(map_11910d7fcb885141346f24de18ec1de7);
+        
+    
+        var popup_d2c52889fa68b1634ffd33350c1c80aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba832fe78d05748029d4f355beeaac64 = $(`<div id="html_ba832fe78d05748029d4f355beeaac64" style="width: 100.0%; height: 100.0%;">Zitmaxx<br>STOBBEWEG 19<br>TER AAR<br>2461EX<br>Nederland</div>`)[0];
+            popup_d2c52889fa68b1634ffd33350c1c80aa.setContent(html_ba832fe78d05748029d4f355beeaac64);
+        
+
+        marker_95b9ce194453077215baf8bc07b8324d.bindPopup(popup_d2c52889fa68b1634ffd33350c1c80aa)
+        ;
+
+        
+    
+</script>
+</html>
